@@ -1,0 +1,15 @@
+@use './vars.scss' as *;
+@use './general.scss' as *;
+@use './reset.scss' as *;
+
+/*
+    STYLE
+*/
+
+body {font-family: $font;}
+
+a {color: black;text-decoration: none;}
+
+a:hover {color: $primary-color;}
+
+ul {list-style: none;}

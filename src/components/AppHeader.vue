@@ -125,13 +125,12 @@
                 content: "-";
                 background-color: #0282f9;
                 display: block;
-                width: 100%;
-                height: 1;
+                width: 100%;  
                 position: absolute;
-                top: 74px;
+                top: 40px;
                 left: 0px;
                 right: 0px;
-                font-size: 4px;
+                font-size: .25rem;
             }
         }
 

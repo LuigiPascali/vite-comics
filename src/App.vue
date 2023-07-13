@@ -25,6 +25,7 @@
   <AppHeader />
   <AppHero />
   <AppMain />
+  <AppShortMenu />
   <AppFooter />
 
 </template>

@@ -3,7 +3,7 @@
     export default {
         data() {
             return {
-
+                
             }
         }
     }
@@ -12,16 +12,15 @@
 
 <template>
 
-    <hero>
+    <div id="hero" class="container">
 
-        HERO
+    CONTENT GOES HERE!
 
-    </hero>
+    </div>
 
 </template>
 
 <style lang="scss" scoped>
 
- 
 
 </style>

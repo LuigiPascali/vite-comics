@@ -13,15 +13,15 @@
 <template>
 
     <footer>
-
-        FOOTER
+        
+        <div class="container">
+            FOOTER
+        </div>
 
     </footer>
 
 </template>
 
 <style lang="scss" scoped>
-
- 
 
 </style>

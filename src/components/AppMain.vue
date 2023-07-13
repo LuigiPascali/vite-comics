@@ -11,58 +11,55 @@
 
 <template>
 
-    <main>
 
-        <div class="logos">
+    <div class="logos">
 
-            <div>
+        <div>
 
-                <div class="items">
-                    <img src="../assets/img/buy-comics-digital-comics.png" alt="Digital Comics">
-                    <p>DIGITAL COMICS</p>
-                </div>
-
-            </div>
-
-            <div>
-
-                <div class="items">
-                    <img src="../assets/img/buy-comics-merchandise.png" alt="DC Merchandise">
-                    <p>DC MERCANDISE</p>
-                </div>
-
-            </div>
-
-            <div>
-
-                <div class="items">
-                    <img src="../assets/img/buy-comics-subscriptions.png" alt="Subscription">
-                    <p>SUBSCRIPTION</p>
-                </div>
-
-            </div>
-
-            <div>
-
-                <div class="items">
-                    <img src="../assets/img/buy-comics-shop-locator.png" alt="Shop Locator">
-                    <p>COMIC SHOP LOCATOR</p>
-                </div>
-
-            </div>
-
-            <div>
-
-                <div class="items">
-                    <img src="../assets/img/buy-dc-power-visa.svg" alt="DC Power Visa">
-                    <p>DC POWER VISA</p>
-                </div>
-
+            <div class="items">
+                <img src="../assets/img/buy-comics-digital-comics.png" alt="Digital Comics">
+                <p>DIGITAL COMICS</p>
             </div>
 
         </div>
 
-    </main>
+        <div>
+
+            <div class="items">
+                <img src="../assets/img/buy-comics-merchandise.png" alt="DC Merchandise">
+                <p>DC MERCANDISE</p>
+            </div>
+
+        </div>
+
+        <div>
+
+            <div class="items">
+                <img src="../assets/img/buy-comics-subscriptions.png" alt="Subscription">
+                <p>SUBSCRIPTION</p>
+            </div>
+
+        </div>
+
+        <div>
+
+            <div class="items">
+                <img src="../assets/img/buy-comics-shop-locator.png" alt="Shop Locator">
+                <p>COMIC SHOP LOCATOR</p>
+            </div>
+
+        </div>
+
+        <div>
+
+            <div class="items">
+                <img src="../assets/img/buy-dc-power-visa.svg" alt="DC Power Visa">
+                <p>DC POWER VISA</p>
+            </div>
+
+        </div>
+
+    </div>
 
 </template>
 

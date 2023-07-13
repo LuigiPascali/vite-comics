@@ -18,12 +18,12 @@
 
             <div class="button">
 
-                <div class="right">
+                <div class="left">
                     <a>SIGN-UP NOW!</a>
                 </div>
 
                 
-                <div class="left">
+                <div class="right">
 
                     <div><span>FOLLOW US</span></div>
                     <div><img src="../assets/img/footer-facebook.png" alt="facebook"></div>
@@ -54,7 +54,6 @@
         align-items: center;
     }
 
-
     .footer a {
         display: block;
         border: solid 2px #0282f9;
@@ -79,20 +78,22 @@
         justify-content: space-between;
     }
 
-    .left {
+    .right {
         display: flex;
         align-content: center;
         align-items: center;
         color: #0282f9;
-        cursor: pointer;
+        
     }
 
-    .left span {
+    .right span {
         margin-right: 20px;
+        font-weight: bold;
     }
 
-    .left img {
+    .right img {
         padding: 0 14px;
+        cursor: pointer;
     }
 
 </style>

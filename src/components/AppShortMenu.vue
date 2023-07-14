@@ -1,13 +1,125 @@
 <script>
 
-    export default {
-        data() {
-            return {
-                
-            }
-        }
-    }
+   export default {
+    data() {
+      return{
+        dcLink: [
+            {
+                nome: 'Characters',
+                link: '',
+            },
+            {
+                nome: 'Comics',
+                link: '',
+            },
+            {
+                nome: 'Movies',
+                link: '',
+            },
+            {
+                nome: 'Tv',
+                link: '',
+            },
+            {
+                nome: 'Games',
+                link: '',
+            },
+            {
+                nome: 'Collectibles',
+                link: '',
+            },
+            {
+                nome: 'Videos',
+                link: '',
+            },
+            {
+                nome: 'News',
+                link: '',
+            },
 
+        ],
+        shopLink: [
+            {
+                nome: 'Shop DC',
+                link: '',
+            },
+            {
+                nome: 'Shop DC Collectibles',
+                link: '',
+            },
+        ],
+        dcLink: [
+            {
+                nome: 'Terms of Use',
+                link: '',
+            },
+            {
+                nome: 'Privacy policy',
+                link: '',
+            },
+            {
+                nome: 'Ad Choices',
+                link: '',
+            },
+            {
+                nome: 'Advertising',
+                link: '',
+            },
+            {
+                nome: 'Jobs',
+                link: '',
+            },
+            {
+                nome: 'Subscriptions',
+                link: '',
+            },
+            {
+                nome: 'Talent Workshop',
+                link: '',
+            },
+            {
+                nome: 'CPSC Cetficates',
+                link: '',
+            },
+            {
+                nome: 'Rating',
+                link: '',
+            },
+            {
+                nome: 'Shop Help',
+                link: '',
+            },
+            {
+                nome: 'Contact Us',
+                link: '',
+            },
+        ],
+        sitesLink: [
+        {
+                nome: 'DC',
+                link: '',
+            },
+            {
+                nome: 'MAD Magazine',
+                link: '',
+            },
+            {
+                nome: 'DC Kids',
+                link: '',
+            },
+            {
+                nome: 'DC Universe',
+                link: '',
+            },
+            {
+                nome: 'DC Power Visa',
+                link: '',
+            },
+        ]
+      }
+    },
+    
+  }
 </script>
 
 <template>
@@ -21,24 +133,29 @@
                 <div>
 
                     <ul id="dc-comics">
+
                         <li>
-                            <h3>DS COMIC</h3>
+                            <h3>DC COMIC</h3>
                         </li>
-                        <li>Characters</li>
-                        <li>Comics</li>
-                        <li>Movies</li>
-                        <li>TV</li>
-                        <li>Games</li>
-                        <li>Video</li>
-                        <li>News</li>
+                        <li v-for="links in dcLink">
+                            <a href="#" >
+                                {{links.nome}}
+                            </a>
+                        </li>
+
                     </ul>
 
                     <ul id="shop">
+
                         <li>
                             <h3>SHOP</h3>
                         </li>
-                        <li>Shop DC</li>
-                        <li>Shop DC Collectibles</li>
+                        <li v-for="links in shopLink">
+                            <a href="#">
+                            {{links.nome}}
+                            </a>
+                        </li>
+
                     </ul>
 
                 </div>
@@ -50,17 +167,11 @@
                         <li>
                             <h3>DC</h3>
                         </li>
-                        <li>Terms Of Use</li>
-                        <li>Privacy policy (New)</li>
-                        <li>Ad Choices</li>
-                        <li>Advertising</li>
-                        <li>Jobs</li>
-                        <li>Subscriptions</li>
-                        <li>alent Workshops</li>
-                        <li>CPSC Certificates</li>
-                        <li>Retings</li>
-                        <li>Shop Help</li>
-                        <li>Contact Us</li>
+                        <li v-for="links in dcLink">
+                            <a href="#">
+                                {{ links.nome }}
+                            </a>
+                        </li>
 
                     </ul>
 
@@ -73,11 +184,11 @@
                         <li>
                             <h3>SITE</h3>
                         </li>
-                        <li>DC</li>
-                        <li>MAD Magazione</li>
-                        <li>DC Kids</li>
-                        <li>DC Universe</li>
-                        <li>DC Power visa</li>
+                        <li v-for="links in sitesLink">
+                            <a href="#">
+                                {{ links.nome }}
+                            </a>
+                        </li>
 
                     </ul>
 

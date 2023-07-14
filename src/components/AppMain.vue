@@ -76,6 +76,7 @@
     .logos img {
         display: block;
         height: 50px;
+        padding: 0 12px;
     }
 
     .logos .items {
@@ -84,10 +85,7 @@
         align-content: center;
         align-items: center;
         color: white;
-    }
-
-    .logos .items img {
-        padding: 0 12px;
+        cursor: pointer;
     }
 
 </style>

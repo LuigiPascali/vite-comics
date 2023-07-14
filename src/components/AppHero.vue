@@ -14,10 +14,10 @@
 
     <div id="hero" class="container">
         
-        <h3>
+        <h2>
             CONTENT GOES HERE!
-        </h3>
-    
+        </h2>
+   
     </div>
 
 </template>
@@ -25,13 +25,10 @@
 <style lang="scss" scoped>
 
 #hero {
-    height: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
-
-h3 {
-    text-align: center;
-    margin-top: 30px;
-}
-
 
 </style>

@@ -58,7 +58,7 @@
         display: block;
         border: solid 2px #0282f9;
         padding: 10px 20px;
-        color: white;
+        color: #ffffff;
         cursor: pointer;
     }
 
@@ -67,7 +67,7 @@
         border: 2px solid #0282f9;
         background-color: #0282f9;
         padding: 10px 20px;
-        color: white;
+        color: #ffffff;
         cursor: pointer;
     }
 

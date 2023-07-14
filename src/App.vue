@@ -2,6 +2,7 @@
 
   import AppHeader from './components/AppHeader.vue';
   import AppHero from './components/AppHero.vue';
+  import AppProducts from './components/AppProducts.vue'
   import AppMain from './components/AppMain.vue';
   import AppShortMenu from './components/AppShortMenu.vue'
   import AppFooter from './components/AppFooter.vue';
@@ -10,7 +11,7 @@
 
   name: 'Vite Comics',
 
-  components: { AppHeader, AppHero, AppMain, AppShortMenu, AppFooter },
+  components: { AppHeader, AppHero, AppProducts, AppMain, AppShortMenu, AppFooter },
 
   data() {
       return {}
@@ -24,6 +25,7 @@
 
   <AppHeader />
   <AppHero />
+  <AppProducts />
   <AppMain />
   <AppShortMenu />
   <AppFooter />

@@ -12,11 +12,17 @@
 
 <template>
 
-    <div id="hero" class="container">
-        
-        <h2>
-            CONTENT GOES HERE!
-        </h2>
+    <div id="hero">
+
+        <div class="container title">
+
+            <div class="section">
+
+                CURRENT SERIES
+
+            </div>
+
+        </div>
    
     </div>
 
@@ -24,11 +30,25 @@
 
 <style lang="scss" scoped>
 
-#hero {
-    height: 100px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
+    #hero {
+        position: relative;
+        height: 300px;
+        background-image: url(../assets/img/jumbotron.jpg);
+        background-size: cover;
+    }
+
+    .title {
+        color: #ffffff;
+    }
+
+    .section {
+        position: absolute;
+        top: 280px;
+        width: 200px;
+        padding: 10px 20px;
+        background-color: #0282f9;
+        color: #ffffff;
+        font-weight: 900;
+    }
 
 </style>

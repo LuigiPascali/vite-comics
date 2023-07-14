@@ -118,7 +118,7 @@
 
             &active {
                 background-color: rgba(2, 130, 250, 1);
-                color: white;
+                color: #ffffff;
             }
 
             &:hover::after {

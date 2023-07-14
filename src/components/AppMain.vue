@@ -11,7 +11,6 @@
 
 <template>
 
-
     <div class="logos">
 
         <div>
@@ -84,7 +83,7 @@
         justify-content: space-between;
         align-content: center;
         align-items: center;
-        color: white;
+        color: #ffffff;
         cursor: pointer;
     }
 

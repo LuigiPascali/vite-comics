@@ -3,7 +3,7 @@
    export default {
     data() {
       return{
-        dcLink: [
+        dcLinks: [
             {
                 nome: 'Characters',
                 link: '',
@@ -38,7 +38,7 @@
             },
 
         ],
-        shopLink: [
+        shopLinks: [
             {
                 nome: 'Shop DC',
                 link: '',
@@ -48,7 +48,7 @@
                 link: '',
             },
         ],
-        dcLink: [
+        dcLinks: [
             {
                 nome: 'Terms of Use',
                 link: '',
@@ -94,7 +94,7 @@
                 link: '',
             },
         ],
-        sitesLink: [
+        sitesLinks: [
         {
                 nome: 'DC',
                 link: '',
@@ -137,7 +137,7 @@
                         <li>
                             <h3>DC COMIC</h3>
                         </li>
-                        <li v-for="links in dcLink">
+                        <li v-for="links in dcLinks">
                             <a href="#" >
                                 {{links.nome}}
                             </a>
@@ -150,7 +150,7 @@
                         <li>
                             <h3>SHOP</h3>
                         </li>
-                        <li v-for="links in shopLink">
+                        <li v-for="links in shopLinks">
                             <a href="#">
                             {{links.nome}}
                             </a>
@@ -167,7 +167,7 @@
                         <li>
                             <h3>DC</h3>
                         </li>
-                        <li v-for="links in dcLink">
+                        <li v-for="links in dcLinks">
                             <a href="#">
                                 {{ links.nome }}
                             </a>
@@ -184,7 +184,7 @@
                         <li>
                             <h3>SITE</h3>
                         </li>
-                        <li v-for="links in sitesLink">
+                        <li v-for="links in sitesLinks">
                             <a href="#">
                                 {{ links.nome }}
                             </a>

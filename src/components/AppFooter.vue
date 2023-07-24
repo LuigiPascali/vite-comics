@@ -46,7 +46,7 @@
 
     .footer {
         background-color: #303030;
-        height: 100px;
+        height: 105px;
         padding: 20px 0;
         display: flex;
         justify-content: space-between;
